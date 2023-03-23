@@ -14,6 +14,7 @@
 
 body {
   font-family: "Montserrat", "Fraunces", sans-serif;
+  background: var(--cream);
 }
 
 .flex {

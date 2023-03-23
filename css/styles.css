@@ -27,7 +27,10 @@ body {
 .card {
   display: flex;
   flex-direction: row;
-  width: 500px;
+  max-width: 500px;
+  background-color: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .left-side {

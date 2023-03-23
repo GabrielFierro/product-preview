@@ -26,11 +26,11 @@ body {
 .card {
   display: flex;
   flex-direction: row;
-  max-width: 580px;
+  max-width: 600px;
   background-color: var(--white);
   border-radius: 10px;
   overflow: hidden;
-  height: 75%;
+  height: 70%;
 }
 
 .left-side {
@@ -60,6 +60,7 @@ body {
   font-family: "Fraunces";
   font-weight: 700;
   font-size: 32px;
+  line-height: 1;
   padding-right: 10px;
   margin-top: 18px;
   color: var(--very-dark-blue);
@@ -69,6 +70,44 @@ body {
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 14px;
-  margin: 15px 0;
+  margin: 25px 0;
   color: var(--dark-grayish-blue);
+  letter-spacing: 0.2px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0 15px 0;
+}
+
+.info h1 {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--dark-cyan);
+}
+
+.info p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--dark-grayish-blue);
+  text-decoration: line-through;
+  margin-left: 22px;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  border-radius: 10px;
+  border: none;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px 0;
 }
